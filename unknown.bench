@@ -1,0 +1,22 @@
+# input abcd, output xy
+
+INPUT(a)
+INPUT(b)
+INPUT(c)
+INPUT(d)
+INPUT(1)
+INPUT(U)
+
+e = NAND(a, b)
+f = AND(b, c)
+g = NOT(c)
+h = AND(a, U, U)
+i = OR(a, 1)
+
+x = OR(e, f)
+y = AND(f, g, d)
+z = AND(h, e)
+
+OUTPUT(x)
+OUTPUT(y)
+OUTPUT(z)

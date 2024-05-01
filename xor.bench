@@ -1,0 +1,8 @@
+INPUT(a)
+INPUT(b)
+INPUT(c)
+
+d = NOT(c)
+e = XOR(a,b,c,d)
+
+OUTPUT(e)
